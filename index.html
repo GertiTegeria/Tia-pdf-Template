@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vacancy Notice - TIA</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: #555;
+}
+
+.position-title {
+  display: block;
+  text-align: center;
+  color: #c11a1a;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.company-doctor {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.vacancy-label {
+  display: inline-block;
+  background: #c11a1a;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: bold;
+  font-size: 22px;
+  min-width: 180px;
+  max-width: 500px;
+}
+.width {
+  width: 500px;
+}
+
+.logo {
+  height: 180px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.highlight {
+  color: #c11a1a;
+  font-weight: bold;
+}
+
+.note {
+  font-size: 12px;
+  font-style: italic;
+  color: #555;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+a {
+  color: #c11a1a;
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Add these rules to your existing style.css */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
+/* Force color rendering for PDF converters */
+* {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  print-color-adjust: exact;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="width"><span class="vacancy-label">INTERNAL/EXTERNAL VACANCY</span></p>
+
+        <img src="Logo.svg" alt="TIA Logo" class="logo" />
+      </div>
+
+      <div class="content">
+        <p>
+            Tirana International Airport SHPK (TIA) is seeking to hire a <br />
+            <span class="position-title">
+              Passenger with Reduced Mobility (PRM) Assistant
+            </span>
+            <br />
+            who will report to the <span class="company-doctor">Company Doctor</span> of the company.
+          </p>
+          
+          
+
+        <div id="dynamic-sections"></div>
+
+        <h3>Application Procedure:</h3>
+        <p>
+          Complete the application form with all required information. The Human
+          Resources Department will contact only selected candidates after
+          reviewing the documentation.
+        </p>
+      </div>
+
+      <div class="footer">
+        <div>
+          <img
+            src="Aeroporti_Ndërkombëtar_Nënë_Tereza.svg 1.png"
+            alt="TIA Logo"
+            class="footer-logo"
+          />
+        </div>
+        <div>
+          Tirana International Airport Nënë Tereza.<br />
+          Administration Building, Rinas, Tirana, Albania<br />
+          <a href="http://www.tirana-airport.com">www.tirana-airport.com</a>
+        </div>
+        <div>
+          Phone: 00355 4 2381 600<br />
+          Fax: 00355 4 2381 545<br />
+          Email: info@tirana-airport.com
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const sections = [
+        {
+          title: "Position requirements:",
+          items: [
+            "The Airport Customer Experience Manager is responsible for overseeing and enhancing the end-to-end passenger journey across the airport, ensuring a seamless, safe, and customer-focused experience. This role drives service excellence by coordinating with internal teams, airlines, and service providers to implement customer care standards, resolve operational challenges, and continuously improve passenger satisfaction. Acting as the voice of the customer, the Manager identifies pain points, introduces innovations, and ensures compliance with regulatory requirements while fostering a welcoming airport environment. The position requires balancing strategic initiatives with day-to-day issue resolution, ensuring that every interaction reflects the airport’s commitment to quality, efficiency, and hospitality.",
+          ],
+        },
+        {
+          title: "Main duties and responsibilities of the position:",
+          items: [
+            "Oversee and improve the end-to-end passenger journey. Implement and monitor customer service standards across airport touchpoints. Coordinate with airlines, ground staff, and service partners to ensure consistent service. Lead, train, and support customer service teams. Manage passenger feedback and resolve escalated issues. Drive process improvements to enhance efficiency and satisfaction. Ensure compliance with aviation, safety, and accessibility standards. Report on KPIs (satisfaction, wait times, complaints). Manage communication during disruptions or service interruptions.",
+          ],
+        },
+        {
+          title: "Work experience:",
+          items: [
+            "Proven experience (5+ years) in customer service management, preferably within aviation, transport, or hospitality sectors.",
+            "Demonstrated success in leading teams and managing service operations in high-volume, fast-paced environments.",
+            "Experience working with airlines, ground handling agents, or airport authorities, ensuring smooth coordination across multiple stakeholders.",
+            "Track record in improving passenger satisfaction, implementing service standards, and managing feedback systems.",
+            "Hands-on experience with crisis and disruption management, including passenger communication during delays, cancellations, or emergencies.",
+            "Familiarity with service quality frameworks, KPIs, and performance reporting within regulated industries.",
+          ],
+        },
+        {
+          title: "Language requirements:",
+          items: ["English"],
+        },
+        {
+          title: "Skills and Competencies:",
+          items: [
+            "Strong leadership and team management.",
+            "Excellent customer service and communication skills.",
+            "Problem-solving and quick decision-making under pressure.",
+            "Ability to manage multiple stakeholders effectively.",
+            "Organisational and time management skills.",
+            "Adaptability and resilience in dynamic environments.",
+          ],
+        },
+      ];
+
+      function formatContent(content) {
+        if (!content || content.trim() === "") return "";
+
+        const isHTMLContent = /<[^>]+>/.test(content);
+
+        if (isHTMLContent) {
+          return content
+            .replace(/\\n/g, "\n")
+            .replace(/\\t/g, "\t")
+            .replace(/\\r/g, "\r")
+            .replace(/\\"/g, '"')
+            .replace(/\\'/g, "'")
+            .replace(/\\\\/g, "\\")
+            .trim();
+        }
+
+        return content
+          .replace(/\\n/g, "\n")
+          .replace(/\n/g, "<br>")
+          .replace(/\\t/g, "\t")
+          .replace(/\t/g, "    ")
+          .replace(/\\r/g, "\r")
+          .replace(/\r/g, "")
+          .replace(/\\"/g, '"')
+          .replace(/"/g, "")
+          .replace(/\\'/g, "'")
+          .replace(/'/g, "")
+          .replace(/\\\\/g, "\\")
+          .replace(/\\b/g, "\b")
+          .replace(/\\f/g, "\f")
+          .replace(/\\v/g, "\v")
+          .replace(/\\u([0-9a-fA-F]{4})/g, (match, hex) =>
+            String.fromCharCode(parseInt(hex, 16))
+          )
+          .replace(/\s+$/gm, "")
+          .replace(/^\s+$/gm, "")
+          .replace(/●\\t/g, "● ")
+          .replace(/•\\t/g, "• ")
+          .replace(/\*\\t/g, "* ")
+          .replace(/○\\t/g, "○ ")
+          .replace(/\s{2,}/g, " ")
+          .trim();
+      }
+
+      const container = document.getElementById("dynamic-sections");
+
+      sections.forEach((section) => {
+        const h3 = document.createElement("h3");
+        h3.innerHTML = formatContent(section.title);
+        container.appendChild(h3);
+
+        section.items.forEach((item) => {
+          const p = document.createElement("p");
+          p.innerHTML = formatContent(item);
+          container.appendChild(p);
+        });
+      });
+    </script>
+  </body>
+</html>
